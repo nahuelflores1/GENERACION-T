@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.tabla-con-bordes {
+    margin: 50px;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla-con-bordes th,
+.tabla-con-bordes td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact button{
+    display: flex;
+}
+
+#contact label{
+    display: flex;
+}

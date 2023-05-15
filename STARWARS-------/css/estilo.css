@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Star Wars', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("../img/sky.jpg");
+    background-repeat: initial;
+}
+
+.img-h1-banner {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: black !important;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px 70px 0px;
+    align-items: center;
+    padding: 10px;
+}
+
+.h1-imperio {
+    letter-spacing: 1px;
+    font-size: 65px;
+    text-align: center;
+    margin: 40px;
+}
+
+.img-h1-banner img {
+    width: 200px;
+    object-fit: cover;
+}
+
+#Seccion-darth-vader {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pjs-vader {
+    text-align: center;
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pjs-vader li h4 {
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+.pjs-vader li {
+    width: 30%;
+    margin: 5px;
+}
+
+
+.h1-losrebeldes {
+    letter-spacing: 1px;
+    font-size: 65px;
+    text-align: center;
+    margin: 100px 100px 0px 100px;
+}
+
+#los_rebeldes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#los_rebeldes img {
+    align-items: center;
+    margin: 30px;
+    width: 400px;
+    height: 340px;
+    object-fit: cover;
+    object-position: center -48px;
+}
+
+#droides {
+    text-align: center;
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#droides li h4 {
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#droides li img {
+    object-fit: cover;
+    width: 300px;
+    height: 420px;
+    object-position: center 9px;
+}
+
+.h1-droides {
+    letter-spacing: 1px;
+    font-size: 65px;
+    text-align: center;
+    margin: 100px 100px 0px 100px;
+    text-align: center;
+}
+
+.h1-unidades {
+    letter-spacing: 1px;
+    font-size: 65px;
+    text-align: center;
+    margin: 100px;
+    text-align: center;
+}
+
+#apoyo {
+    text-align: center;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#apoyo li img {
+
+    object-fit: contain;
+    width: 400px;
+    height: 420px;
+    object-position: center 9px;
+}

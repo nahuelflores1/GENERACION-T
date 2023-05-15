@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table class="tabla-con-bordes">
+        <tr style="background-color: lightcoral;">
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>EMAIL</th>
+            <th>TELEFONO</th>
+            <th>DNI</th>
+        </tr>
+        <tr>
+            <td>Julian</td>
+            <td>Fortunato</td>
+            <td>julianfortunatoe@gmail.com</td>
+            <td>11440599</td>
+            <td>44987622</td>
+        </tr>
+        <tr>
+            <td>Jackson</td>
+            <td>Baied</td>
+            <td>baied2010@gmail.com</td>
+            <td>11409144</td>
+            <td>45092399</td>
+        </tr>
+    </table>
+    <section id="contact">
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Asunto:</label>
+            <select id="subject" name="subject">
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+            </select>
+
+            <label>¿Quieres recibir nuestro newsletter?</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="1">
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>

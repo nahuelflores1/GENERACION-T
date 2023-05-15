@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    background-color: lightseagreen; 
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 70px;
+    
+}
+
+
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrantes h4{
+    font-size: 20px;
+    color: black;
+}
+
+.integrantes img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.lanchas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lanchas img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.lanchas h4{
+    color: black;
+    font-size: 20px;
+}
+
+#flota_lanchas{
+    padding: 15px;
+} 
+
+#flota{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flota_lanchas h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+#flota_lanchas img{
+    width: 300px;
+    height: 250px;
+}
+
+#integrantes_{
+    padding: 15px;
+}
+
+#integrantes_ h6{
+    text-align: center;
+    font-size: 20px;
+}
+
+#integrantes_ p{
+    text-align: center;
+}
+
+#integrantes_ img{
+    width: 300px;
+    height: 250px;
+}
+
+.integrantes_columna{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
