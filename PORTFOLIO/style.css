@@ -1,0 +1,16 @@
+.encabezado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.encabezado img {
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    padding: 23;
+
+}
