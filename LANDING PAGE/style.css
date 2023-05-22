@@ -1,0 +1,31 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid red;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container img {
+    height: 15%;;
+    width: 30%;
+    margin: 1.4%;
+}
+
+.pie-pagina{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-evenly;
+}
+
+.pie-pagina a{
+    color: black;
+    text-decoration: none;
+}
